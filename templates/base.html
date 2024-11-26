@@ -16,13 +16,23 @@
     <!-- font icons -->
     <link
       rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
       href="{% static 'vendors/themify-icons/css/themify-icons.css' %}"
     />
-	<link rel="stylesheet" type="text/css" href="{% static 'css/font-awesome.css' %}">
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{% static 'css/font-awesome.css' %}"
+    />
     <!-- Bootstrap + JohnDoe main styles -->
     <link rel="stylesheet" href="{% static 'css/johndoe.css' %}" />
   </head>
-
 
   <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
     <a
@@ -32,10 +42,8 @@
       data-offset-top="600"
       ><i class="ti-shift-left-alt"></i> Components</a
     >
-    {% include "partials/header.html" %} 
-	{% include "partials/nav.html" %}
-	{% block content %} {% endblock content %}
-
+    {% include "partials/header.html" %} {% include "partials/nav.html" %}
+    {% block content %} {% endblock content %}
 
     <!-- core  -->
     <script src="{% static 'vendors/jquery/jquery-3.4.1.js' %}"></script>
@@ -56,7 +64,5 @@
 
     <!-- JohnDoe js -->
     <script src="{% static 'js/johndoe.js' %}"></script>
-
-
   </body>
 </html>
