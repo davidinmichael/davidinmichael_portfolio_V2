@@ -1,22 +1,54 @@
 dummy_posts = [
     {
-        "title": "Understanding Django Basics",
-        "body": "Django is a high-level Python web framework that enables rapid development of secure and maintainable websites. In this post, we'll explore its fundamental concepts."
+        "title": "The Art of Writing Clean Code",
+        "body": (
+            "Writing clean code is more than just a skill; it's a mindset. Clean code is easy to read, "
+            "understand, and maintain. Developers spend more time reading code than writing it, so clarity "
+            "is crucial. To achieve this, focus on proper naming conventions, consistent formatting, and "
+            "removing unnecessary complexity. Remember, clean code is not just for you, but for anyone who "
+            "might work on your project in the future. It's a mark of professionalism and thoughtfulness."
+        ),
     },
     {
-        "title": "Why You Should Learn Python",
-        "body": "Python is a versatile programming language known for its simplicity and readability. It is widely used in web development, data science, artificial intelligence, and more."
+        "title": "How Cloud Computing is Changing the World",
+        "body": (
+            "Cloud computing has revolutionized the way we store and access data. Gone are the days of relying "
+            "on physical storage devices. The cloud offers flexibility, scalability, and cost savings. From "
+            "startups to multinational corporations, businesses can now host their applications and data "
+            "securely while only paying for what they use. Beyond business, cloud computing powers our daily "
+            "lives—from streaming services to online backups. The future of cloud technology promises even "
+            "greater integration into every aspect of life."
+        ),
     },
     {
-        "title": "Tips for Writing Clean Code",
-        "body": "Writing clean and maintainable code is essential for any developer. In this article, we'll cover best practices, such as naming conventions, code formatting, and documentation."
+        "title": "The Importance of Cybersecurity in Today's Digital World",
+        "body": (
+            "In an era where digital transformation is the norm, cybersecurity has become a top priority. Every day, "
+            "millions of cyberattacks target individuals, businesses, and governments. Data breaches can lead to "
+            "financial losses, reputation damage, and legal consequences. Implementing robust security measures, "
+            "such as firewalls, encryption, and regular software updates, is essential. Moreover, educating employees "
+            "and users about phishing and social engineering attacks plays a vital role in defense. Cybersecurity is "
+            "not just an IT issue; it's a business imperative."
+        ),
     },
     {
-        "title": "Exploring REST APIs with Django",
-        "body": "REST APIs are a powerful way to enable communication between applications. Django Rest Framework makes it simple to build robust APIs with minimal effort."
+        "title": "The Evolution of Artificial Intelligence",
+        "body": (
+            "Artificial Intelligence (AI) has grown from a theoretical concept to a powerful force driving innovation "
+            "across industries. From chatbots and virtual assistants to self-driving cars and medical diagnosis, AI is "
+            "reshaping how we interact with technology. The journey began with rule-based systems, evolved to machine "
+            "learning, and now we are entering the era of deep learning and generative AI. While AI offers immense "
+            "potential, ethical considerations and bias mitigation are critical to ensure its benefits are accessible to all."
+        ),
     },
     {
-        "title": "Optimizing Database Queries in Django",
-        "body": "Database optimization is crucial for application performance. Learn how to use Django ORM effectively, leverage querysets, and avoid common pitfalls."
-    }
+        "title": "How to Stay Productive as a Remote Developer",
+        "body": (
+            "Remote work has become the norm for many developers, but staying productive requires discipline and structure. "
+            "Start by setting up a dedicated workspace to minimize distractions. Create a daily schedule that includes breaks "
+            "to recharge. Use productivity tools like task managers and time trackers to stay organized. Communication is key, "
+            "so make an effort to stay connected with your team through video calls and chat platforms. Most importantly, "
+            "maintain a work-life balance to avoid burnout and ensure long-term productivity."
+        ),
+    },
 ]

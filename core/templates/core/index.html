@@ -492,7 +492,7 @@
                 
                 <div class="blog-card">
                     <div class="img-holder">
-                        <img src="{% static 'imgs/blog1.jpg' %}" alt={{blog.title}}>
+                        <img src="{{ blog.picture.url }}" alt={{blog.title}}>
                     </div>
                     <div class="content-holder">
                         <h6 class="title">{{ blog.title }}</h6>

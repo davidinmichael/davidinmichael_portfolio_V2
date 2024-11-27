@@ -3,5 +3,6 @@
 {% block content %}
   <h1>Blog Details</h1>
   <h2>{{ blog.title }}</h2>
+   <img src="{{ blog.picture.url }}" alt={{blog.title}}>
   <p>{{ blog.body }}</p>
 {% endblock content %}
